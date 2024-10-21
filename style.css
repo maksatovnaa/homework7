@@ -1,0 +1,79 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, rgb(201, 175, 210) 15%, rgb(180, 225, 227) 40%, rgb(195, 184, 171) 80%);
+   
+}
+ 
+.glavnyi{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    background-color: rgba(234, 230, 225, 0.783);
+    width: 600px;
+    height: 300px;
+    border: 8px white solid;
+    border-radius: 10px;
+    gap: 70px ;
+    margin-top: 280px;
+    margin-left: 400px;
+
+    
+}
+
+.get_started{
+    background-color: rgb(202, 143, 202);
+    border-radius: 5px ;
+    border: none;
+    padding: 5px;
+    margin-top: -50px;
+  
+}
+.upgrade_now{
+    background-color: rgb(128, 214, 220);
+    border-radius: 5px;
+    border: none;
+    padding:5px;
+    margin-top: -90px;
+}
+.try{
+    background-color: rgb(196, 162, 96);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: -50px;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mtext{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    margin-top: 30px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+
+.dollar{
+    font-size: 20px; 
+}
+.number{
+    font-size: 40px;
+}
+.smalltext{
+    font-size: small;
+}
+p{
+    padding: 5px;
+}
